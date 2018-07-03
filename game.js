@@ -31,6 +31,7 @@ function initializeGame(){
 function logAnswerAndChangeQuestion(event){
   event.preventDefault();
   var answer = event.target.answerForm.value;
+  answer = answer.toString();
   userInfo.answers.push(answer);
   userInfo.currentQuestion++;
   if(userInfo.currentQuestion < 5){
