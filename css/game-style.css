@@ -1,5 +1,5 @@
 .questionText{
-  font-size: 15px;
+  font-size: 24px;
   color: black;
   left: 15%;
 }
@@ -71,7 +71,7 @@ body{
   position: absolute;
   margin-left: 35%;
   margin-right: 35%;
-  margin-top: 104px;
+  margin-top: 86px;
 }
 .answerInput{
   width: 220px;
