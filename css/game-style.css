@@ -1,0 +1,85 @@
+.questionText{
+  font-size: 15px;
+  color: black;
+  left: 15%;
+}
+body{
+  background-color: black;
+}
+.displayBox{
+  position: fixed;
+  border: 3px solid green;
+  border-radius: 3px;
+  background-color: white;
+  left: 25%;
+  right: 25%;
+  top: 15%;
+  height: 150px;
+}
+.displayBoxGame{
+  position: fixed;
+  border: 3px solid green;
+  border-radius: 3px;
+  background-color: white;
+  left: 25%;
+  right: 25%;
+  top: 15%;
+  height: 250px;
+}
+.questionsContainer{
+  position: relative;
+  border: 5px solid green;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: 50%;
+  right: 25%;
+  margin-top: 15%;
+  height: 150px;
+}
+.welcomeToTrivia{
+  margin: auto;
+  margin-left: 35%;
+  margin-right: 35%;
+  width: 30%;
+  position: absolute;
+  height:  40%;
+  font-family: 'Wendy One', sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+.startButton{
+  position: absolute;
+  margin: auto;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 15%;
+  width: 30%;
+  height: 20%;
+  border-radius: 4px;
+}
+.inputClass{
+  position: absolute;
+  margin: auto;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 15%;
+  width: 30%;
+  height: 20%;
+  border-radius: 4px;
+}
+.answerForm{
+  position: absolute;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: 104px;
+}
+.answerInput{
+  width: 220px;
+  height: 25px;
+}
+.questionHeader{
+  margin-left: 30px;
+}
+.questionText{
+  text-align: center;
+}
